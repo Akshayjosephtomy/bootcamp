@@ -34,7 +34,9 @@ public class Calculator {
                     break;
                 case 4:
                     System.out.println(a/b);
-                case 5:System.exit(0);
+                    break;
+                case 5:
+                    System.exit(0);
             }
         }
     }
