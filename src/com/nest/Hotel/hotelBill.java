@@ -14,11 +14,11 @@ public class hotelBill {
 
         while (true){
             System.out.println("Enter your choice:");
-            System.out.println("1. Tea : Rs.10");
-            System.out.println("2. Coffee : Rs.20");
-            System.out.println("3. Lime Juice : Rs.30");
-            System.out.println("4. BBQ Full : Rs.450");
-            System.out.println("5. Alfaham Full : Rs.550");
+            System.out.println("1. Tea           : Rs.10");
+            System.out.println("2. Coffee        : Rs.20");
+            System.out.println("3. Lime Juice    : Rs.30");
+            System.out.println("4. BBQ Full      : Rs.450");
+            System.out.println("5. Alfaham Full  : Rs.550");
             System.out.println("6. Print Bill");
             System.out.println("7. Exit");
 
@@ -63,10 +63,10 @@ public class hotelBill {
                     price.add(n*550);
                     break;
                 case 6:
-                    System.out.println("******Bill******");
+                    System.out.println("**********Bill**********");
                     int sum = 0;
                     for (int i = 0; i <= item.size()-1; i++) {
-                        System.out.println(item.get(i)+"  "+quantity.get(i)+"  :Rs."+price.get(i));
+                        System.out.println(item.get(i)+"  "+quantity.get(i)+"    :Rs."+price.get(i));
                         sum += price.get(i);
                     }
                     System.out.println("Total Amount is Rs: "+sum);
